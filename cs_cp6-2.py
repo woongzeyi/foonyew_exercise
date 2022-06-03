@@ -45,7 +45,7 @@ words = lyrics.split(' ')
 print(f"Words in the lyrics: \n{words}\n")
 print("There are {} words in the lyrics. \n".format(len(words)))
 query = input("Word to be counted: ")
-print("The word \"{}\" occured {} times in the lyrics. ".format(query, lyrics.count(query)))
+print("The word \"{}\" occurred {} times in the lyrics. ".format(query, lyrics.count(query)))
 print() # Pretty printing
 
 # Question 5
